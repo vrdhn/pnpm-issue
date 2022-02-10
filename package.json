@@ -1,0 +1,17 @@
+{
+    "name": "top",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+	    "tool" : "tool"
+    },
+    "workspaces": [
+        "tool"
+    ],
+    "dependencies": {
+	"tool" : "workspace:*"
+    },
+    "devDependencies": {
+    }
+}

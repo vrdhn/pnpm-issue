@@ -1,0 +1,16 @@
+{
+    "name": "tool",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "devDependencies": {
+        "typescript": "^4.5.5"
+    },
+    "scripts": {
+	"QUESTION" : " echo which life cycle hook to use !!",
+        "prepare": "tsc"
+    },
+    "bin": {
+        "tool": "dist/index.js"
+    }
+}
